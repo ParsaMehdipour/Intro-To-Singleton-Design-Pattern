@@ -1,8 +1,8 @@
 # Intro-To-Singleton-Design-Pattern
-A Simple Use Of Singleton Design Pattern
-
-The Singleton pattern is designed to restrict creation of a class to exactly one single instance. This pattern is used in a scenario where it makes sense to have only one of something, such as: a single class that orchestrates other objects' interactions, ex. Manager class.
+Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/75223567/174621589-8a034336-d6e2-4759-ac72-befe75ffa143.png" width="800">
+  <img src="https://github.com/user-attachments/assets/5240ec10-f993-44db-ae83-62ded08dbdcb" width="800">
 </p>
+
+1. The Singleton class declares the static method getInstance that returns the same instance of its own class. The Singleton’s constructor should be hidden from the client code. Calling the getInstance method should be the only way of getting the Singleton object.
