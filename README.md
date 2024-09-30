@@ -6,3 +6,6 @@ Singleton is a creational design pattern that lets you ensure that a class has o
 </p>
 
 1. The Singleton class declares the static method getInstance that returns the same instance of its own class. The Singleton’s constructor should be hidden from the client code. Calling the getInstance method should be the only way of getting the Singleton object.
+
+Image and Description source: Dive Into DESIGN PATTERNS by Alexander Shvets <br/>
+Link to the book : https://refactoring.guru/design-patterns/book
